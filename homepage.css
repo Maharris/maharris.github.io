@@ -1,165 +1,151 @@
-<!DOCTYPE html>
+*{
+font-family:Verdana;
+}
 
-<html>
+h1{
+font-size:75px;
+color: #1581BF;
+}
 
-	<head>
-		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		
-		<style>
-		/* Sticky navbar styles
-		-------------------------------------------------- */
-		body {	  
-/*		  padding-top: 70px;*/
-		}
-		
-		/* Sticky footer styles
-		-------------------------------------------------- */
-		html {
-		  position: relative;
-		  min-height: 100%;
-		}
-		body {
-		  /* Margin bottom by footer height */
-		  margin-bottom: 60px;
-		}
-		
-		</style>
-		
-		<title>Vibrwatch Homepage</title>
-		
-		
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="homepage.css">
-	</head>
-	
-	<body>
-		
-	
-	    <nav class="navbar navbar-default navbar-fixed-top">
-	      <div class="container">
-	        <div class="navbar-header">
-	          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-	            <span class="sr-only">Toggle navigation</span>
-	            <span class="icon-bar"></span>
-	            <span class="icon-bar"></span>
-	            <span class="icon-bar"></span>
-	          </button>
-			  <!-- <img alt="Socks!" src="img/ylogo.png"> -->
-	          <a class="navbar-brand" href="#">VibrWatch</a>
-	        </div>
-	        <div id="navbar" class="navbar-collapse collapse">
-	          <!-- <ul class="nav navbar-nav">
-	            <li class=""><a href="#">Home</a></li>
-	            <li><a href="#about">About</a></li>
-	            <li><a href="#contact">Contact</a></li>
-	            <li class="dropdown">
-	              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
-	              <ul class="dropdown-menu" role="menu">
-	                <li><a href="#">Action</a></li>
-	                <li><a href="#">Another action</a></li>
-	                <li><a href="#">Something else here</a></li>
-	                <li class="divider"></li>
-	                <li class="dropdown-header">Nav header</li>
-	                <li><a href="#">Separated link</a></li>
-	                <li><a href="#">One more separated link</a></li>
-	              </ul>
-	            </li>
-	          </ul> -->
-	          <ul class="nav navbar-nav navbar-right">
-	             <li><a href="Homepage.html">Homepage</a></li>
-				 <li><a href="AboutUs.html">About Us</a></li>
-				 <li><a href="Features.html">Features</a></li>
-				  <li><a href="Purchasepage.html">Purchase Page</a></li>
-				 <li><a href="ContactUs.html">Contact Us</a></li>
-				<li><a href="FAQ.html">FAQ</a></li>
-	            <!-- <li><a href="../navbar-static-top/"></a></li> -->
-	            
-				
-				
-	          </ul>
-			  
-	        </div><!--/.nav-collapse -->
-	      </div>
-	    </nav>
-		
-		<div id="hero">
-			<div class="container">
-				
-					<div class="row">	
-						<div class="col-xs-12 col-md-12">
-					
-				
-					
-						<h4 class="text-center">VibrWatch</h4>
-						
-						<p id="subtitle" class="lead text-center">The watch that keeps you organized</p>
-						</div>
-					</div>
-					
-					<div class="row">
-						<div class="col-xs-7 col-md-7 ">
-						<img class="img-responsive" src="https://dl.dropbox.com/s/u9g4wwa75jf9d0p/concentric-circles-lcd-watch-1396025853.jpg?dl=0" alt="Vibrwatch">
-						</div>
-					
-						<div class="col-xs-5 col-md-5 ">
-						<p id="hard-sell" class="lead">Our new high-tech watch is sleek, comfortable, and is perfect for busy people on the go.</p>
-						<a href="#" class="btn btn-lg btn-blue">Buy</a>
-						</div>
-					
-					</div>
-				
-			</div>	
-			
-		</div>
-		
-		
-	<footer class="footer">
-    
-	<div class="container">
-	<div class="row">
-		
-		
-		<div class="col-xs-4 col-md-4 col-lg-4">
-		
-		  <h5>Find out what's next<br><small>Sign up for product news</small></h5>
-				<div class="input-group">
-				      <input type="text" class="form-control" placeholder="Email address">
-				      <span class="input-group-btn">
-				        <button class="btn btn-default" type="button">Sign-Up!</button>
-				      </span>
-				   </div><!-- /input-group -->
-				  </div><!--col-->
-				   
-		<div class="col-xs-4 col-md-4">	   
-		   
-		   	<h5><small>Follow us</small></h5>
-			<p><a href="https://twitter.com/vibrwatches" class="btn btn-orange"><i class="fa fa-twitter"></i> On Twitter</a></p>
-			
-		   </div><!--col-->
-			
-			<div class="col-xs-4 col-md-4">
-			<h5>Have questions? Check out our FAQ page.</h5>
-					<p><a href="FAQ.html" class="btn btn-orange">FAQ</a></p>
-		  </div><!--col-->
-		  
-		</div><!--row-->
-		 
-		  
-	   	<div class="row copyright">
-	   		<p class="muted text-center small">&copy; 2015 Marin Harris</p>
-		
-     </div>
-	 </div><!--container-->
-	
-    </footer>
-		
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-	</body>
+h2{
+color: #4C61ff;
+
+}
+
+h3{
+
+color: #1DACFF;
+}
+
+h4{
+
+color: #FFF;
+font-size: 75px;
+}
+body {
+margin-top:80px;
+
+}
 
 
-</html>
+.test{
+
+color:#1581BF;
+
+font-size:75px;
+}
+.navbar-default {
+	background-color:#1DACFF;
+	border-color:#FFF;
+}
+
+.navbar-default .navbar-brand {
+	color: #FFF;
+	 font-weight: bold;
+}
+
+.navbar-default .navbar-nav>li>a { color: #FFF;}
+
+.navbar-default .navbar-toggle .icon-bar { background-color: #FFF; }
+
+i.feature {
+font-size:100px;
+
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color:#1DACFF;
+  background-color: #FFF;
+}
+
+.btn-blue {
+	background-color:#FFF;
+	border-color:#1DACFF;
+	color:#1DACFF;
+}
+
+.btn-orange {
+	background-color:#FFF;
+	border-color:1DACFF;
+	color:1DACFF;
+}
+
+.form-control {
+	border: 1px solid ;
+}
+
+.footer .btn-default {
+  color: #1DACFF;
+  background-color: #FFF;
+  border-color: #1DACFF;
+}
+
+#features {padding: 100px 0px;
+
+
+
+}
+
+
+#hero {background-color:#1581BF;color:#FFF;padding:100px 0px 80px 0px;}
+#hero h2 {font-size:5em;margin-bottom:.25em;}
+#hero p#subtitle {font-size:2.5em;margin-bottom:.5em;font-style:italic;}
+
+#hero p#hard-sell {margin-top:50px;font-size:1.75em;}
+
+#technology {
+	padding: 50px 0px 50px 0;
+	background-color:#0E567F;
+	color:#FFF;
+}
+
+#technology h2 {
+	font-size:  3.5em;
+  	line-height: 1.5em;
+}
+
+#technology #subtitle {margin-bottom:24px;}
+
+#technology img {
+	background-color:#FFF;
+
+}
+
+#technology .features {margin-top:24px;}
+
+#action {
+	padding:75px 0px;
+	background-color:#4C61FF;
+}
+
+#action h2 {text-align:right;color:#FFF;}
+
+#action .input-group {margin-top:19px;}
+
+#action .btn-default {border:1px solid #1DACFF;color:#1DACFF;}
+
+#faq {padding: 50px 0px 50px 0px;}
+#faq h2 {text-align:right;}
+
+#faq .panel-default>.panel-heading {
+  color: ##1DACFF;
+  background-color: #FFF;
+  border-color: ##1DACFF;
+}
+
+#faq .panel-default {
+  border-color: #1DACFF;
+}
+
+
+.footer {
+	background-color:#1DACFF;
+	color:#FFF;
+	padding:30px 0px;
+}
+
+.footer small {color:#FFF;}
+
+.footer a {color:#1DACFF;}
+
+.footer .copyright {padding:25px 0 0 0px;}
