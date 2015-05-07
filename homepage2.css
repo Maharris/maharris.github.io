@@ -1,0 +1,159 @@
+*{
+font-family:Trebuchet MS;
+}
+
+h1{
+font-size:75px;
+color: #1581BF;
+}
+
+h2{
+color: #4C61ff;
+
+}
+
+h3{
+
+color: #1DACFF;
+}
+
+h4{
+
+color: #FFF;
+font-size: 75px;
+}
+body {
+margin-top:80px;
+
+
+}
+
+
+.test{
+
+color:#1581BF;
+
+font-size:75px;
+}
+.navbar-default {
+	background-color:#1DACFF;
+	border-color:#FFF;
+}
+
+.navbar-default .navbar-brand {
+	color: #FFF;
+	 font-weight: bold;
+	 margin-top: 15px;
+	 margin-bottom: 15px;
+	 font-size: 25px;
+}
+
+.navbar-default .navbar-nav>li>a { color: #FFF;
+
+margin-top: 15px;
+font-size: 20px;
+}
+
+.navbar-default .navbar-toggle .icon-bar { background-color: #FFF; }
+
+i.feature {
+font-size:100px;
+
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color:#1DACFF;
+  background-color: #FFF;
+}
+
+.btn-blue {
+	background-color:#FFF;
+	border-color:#1DACFF;
+	color:#1DACFF;
+}
+
+.btn-orange {
+	background-color:#FFF;
+	border-color:1DACFF;
+	color:1DACFF;
+}
+
+.form-control {
+	border: 1px solid ;
+}
+
+.footer .btn-default {
+  color: #1DACFF;
+  background-color: #FFF;
+  border-color: #1DACFF;
+}
+
+#features {padding: 100px 0px;
+
+
+
+}
+
+
+#hero {background-color:#1581BF;color:#FFF;padding:80px 0px 80px 0px;}
+#hero h2 {font-size:5em; margin-bottom:.25em;}
+#hero p#subtitle {font-size:2.5em;margin-bottom:.5em;font-style:italic;}
+
+#hero p#hard-sell {margin-top:0px;font-size:1.75em;}
+
+#technology {
+	padding: 50px 0px 50px 0;
+	background-color:#0E567F;
+	color:#FFF;
+}
+
+#technology h2 {
+	font-size:  3.5em;
+  	line-height: 1.5em;
+}
+
+#technology #subtitle {margin-bottom:24px;}
+
+#technology img {
+	background-color:#FFF;
+
+}
+
+#technology .features {margin-top:24px;}
+
+#action {
+	padding:75px 0px;
+	background-color:#4C61FF;
+}
+
+#action h2 {text-align:right;color:#FFF;}
+
+#action .input-group {margin-top:19px;}
+
+#action .btn-default {border:1px solid #1DACFF;color:#1DACFF;}
+
+#faq {padding: 50px 0px 50px 0px;}
+#faq h2 {text-align:right;}
+
+#faq .panel-default>.panel-heading {
+  color: ##1DACFF;
+  background-color: #FFF;
+  border-color: ##1DACFF;
+}
+
+#faq .panel-default {
+  border-color: #1DACFF;
+}
+
+
+.footer {
+	background-color:#1DACFF;
+	color:#FFF;
+	padding:30px 0px;
+}
+
+.footer small {color:#FFF;}
+
+.footer a {color:#1DACFF;}
+
+.footer .copyright {padding:25px 0 0 0px;}
